@@ -1,0 +1,444 @@
+[
+{
+ "model": "admin.logentry",
+ "pk": 1,
+ "fields": {
+  "action_time": "2023-08-21T09:04:46.477Z",
+  "user": 1,
+  "content_type": 7,
+  "object_id": "1",
+  "object_repr": "<Article:id=1, あああ(2023-08-21>",
+  "action_flag": 1,
+  "change_message": "[{\"added\": {}}]"
+ }
+},
+{
+ "model": "admin.logentry",
+ "pk": 2,
+ "fields": {
+  "action_time": "2023-08-21T09:21:03.461Z",
+  "user": 1,
+  "content_type": 7,
+  "object_id": "2",
+  "object_repr": "<Article:id=2, エンゼルスの同僚ハーゲットが回顧(2023-08-21>",
+  "action_flag": 1,
+  "change_message": "[{\"added\": {}}]"
+ }
+},
+{
+ "model": "admin.logentry",
+ "pk": 3,
+ "fields": {
+  "action_time": "2023-08-21T09:21:07.152Z",
+  "user": 1,
+  "content_type": 7,
+  "object_id": "2",
+  "object_repr": "<Article:id=2, エンゼルスの同僚ハーゲットが回顧(2023-08-21>",
+  "action_flag": 2,
+  "change_message": "[]"
+ }
+},
+{
+ "model": "admin.logentry",
+ "pk": 4,
+ "fields": {
+  "action_time": "2023-08-21T09:21:19.219Z",
+  "user": 1,
+  "content_type": 7,
+  "object_id": "2",
+  "object_repr": "<Article:id=2, エンゼルスの同僚ハーゲットが回顧(2023-08-21>",
+  "action_flag": 2,
+  "change_message": "[]"
+ }
+},
+{
+ "model": "admin.logentry",
+ "pk": 5,
+ "fields": {
+  "action_time": "2023-08-21T09:21:26.573Z",
+  "user": 1,
+  "content_type": 7,
+  "object_id": "1",
+  "object_repr": "<Article:id=1, あああ(2023-08-21>",
+  "action_flag": 3,
+  "change_message": ""
+ }
+},
+{
+ "model": "admin.logentry",
+ "pk": 6,
+ "fields": {
+  "action_time": "2023-08-21T09:23:40.735Z",
+  "user": 1,
+  "content_type": 7,
+  "object_id": "3",
+  "object_repr": "<Article:id=3, この夏の甲子園決勝は仙台育英vs慶應義塾に決定！センバツでも対決！(2023-08-21>",
+  "action_flag": 1,
+  "change_message": "[{\"added\": {}}]"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 1,
+ "fields": {
+  "name": "Can add log entry",
+  "content_type": 1,
+  "codename": "add_logentry"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 2,
+ "fields": {
+  "name": "Can change log entry",
+  "content_type": 1,
+  "codename": "change_logentry"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 3,
+ "fields": {
+  "name": "Can delete log entry",
+  "content_type": 1,
+  "codename": "delete_logentry"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 4,
+ "fields": {
+  "name": "Can view log entry",
+  "content_type": 1,
+  "codename": "view_logentry"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 5,
+ "fields": {
+  "name": "Can add permission",
+  "content_type": 2,
+  "codename": "add_permission"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 6,
+ "fields": {
+  "name": "Can change permission",
+  "content_type": 2,
+  "codename": "change_permission"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 7,
+ "fields": {
+  "name": "Can delete permission",
+  "content_type": 2,
+  "codename": "delete_permission"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 8,
+ "fields": {
+  "name": "Can view permission",
+  "content_type": 2,
+  "codename": "view_permission"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 9,
+ "fields": {
+  "name": "Can add group",
+  "content_type": 3,
+  "codename": "add_group"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 10,
+ "fields": {
+  "name": "Can change group",
+  "content_type": 3,
+  "codename": "change_group"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 11,
+ "fields": {
+  "name": "Can delete group",
+  "content_type": 3,
+  "codename": "delete_group"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 12,
+ "fields": {
+  "name": "Can view group",
+  "content_type": 3,
+  "codename": "view_group"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 13,
+ "fields": {
+  "name": "Can add user",
+  "content_type": 4,
+  "codename": "add_user"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 14,
+ "fields": {
+  "name": "Can change user",
+  "content_type": 4,
+  "codename": "change_user"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 15,
+ "fields": {
+  "name": "Can delete user",
+  "content_type": 4,
+  "codename": "delete_user"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 16,
+ "fields": {
+  "name": "Can view user",
+  "content_type": 4,
+  "codename": "view_user"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 17,
+ "fields": {
+  "name": "Can add content type",
+  "content_type": 5,
+  "codename": "add_contenttype"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 18,
+ "fields": {
+  "name": "Can change content type",
+  "content_type": 5,
+  "codename": "change_contenttype"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 19,
+ "fields": {
+  "name": "Can delete content type",
+  "content_type": 5,
+  "codename": "delete_contenttype"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 20,
+ "fields": {
+  "name": "Can view content type",
+  "content_type": 5,
+  "codename": "view_contenttype"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 21,
+ "fields": {
+  "name": "Can add session",
+  "content_type": 6,
+  "codename": "add_session"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 22,
+ "fields": {
+  "name": "Can change session",
+  "content_type": 6,
+  "codename": "change_session"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 23,
+ "fields": {
+  "name": "Can delete session",
+  "content_type": 6,
+  "codename": "delete_session"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 24,
+ "fields": {
+  "name": "Can view session",
+  "content_type": 6,
+  "codename": "view_session"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 25,
+ "fields": {
+  "name": "Can add article",
+  "content_type": 7,
+  "codename": "add_article"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 26,
+ "fields": {
+  "name": "Can change article",
+  "content_type": 7,
+  "codename": "change_article"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 27,
+ "fields": {
+  "name": "Can delete article",
+  "content_type": 7,
+  "codename": "delete_article"
+ }
+},
+{
+ "model": "auth.permission",
+ "pk": 28,
+ "fields": {
+  "name": "Can view article",
+  "content_type": 7,
+  "codename": "view_article"
+ }
+},
+{
+ "model": "auth.user",
+ "pk": 1,
+ "fields": {
+  "password": "pbkdf2_sha256$600000$OfXVS53iic2U9309uHLFXr$4vrZPGvKhNwahDYFeE+XrvFUJNxat0zkdgXQautUJGM=",
+  "last_login": "2023-08-21T07:25:07.860Z",
+  "is_superuser": true,
+  "username": "admin",
+  "first_name": "",
+  "last_name": "",
+  "email": "harada.kousuke.infratop@gmail.com",
+  "is_staff": true,
+  "is_active": true,
+  "date_joined": "2023-08-21T07:21:08.152Z",
+  "groups": [],
+  "user_permissions": []
+ }
+},
+{
+ "model": "contenttypes.contenttype",
+ "pk": 1,
+ "fields": {
+  "app_label": "admin",
+  "model": "logentry"
+ }
+},
+{
+ "model": "contenttypes.contenttype",
+ "pk": 2,
+ "fields": {
+  "app_label": "auth",
+  "model": "permission"
+ }
+},
+{
+ "model": "contenttypes.contenttype",
+ "pk": 3,
+ "fields": {
+  "app_label": "auth",
+  "model": "group"
+ }
+},
+{
+ "model": "contenttypes.contenttype",
+ "pk": 4,
+ "fields": {
+  "app_label": "auth",
+  "model": "user"
+ }
+},
+{
+ "model": "contenttypes.contenttype",
+ "pk": 5,
+ "fields": {
+  "app_label": "contenttypes",
+  "model": "contenttype"
+ }
+},
+{
+ "model": "contenttypes.contenttype",
+ "pk": 6,
+ "fields": {
+  "app_label": "sessions",
+  "model": "session"
+ }
+},
+{
+ "model": "contenttypes.contenttype",
+ "pk": 7,
+ "fields": {
+  "app_label": "info",
+  "model": "article"
+ }
+},
+{
+ "model": "sessions.session",
+ "pk": "j6qc9d3prd2fsaft21yrs4ain4ke3f93",
+ "fields": {
+  "session_data": ".eJxVjEEOwiAQRe_C2hA6HXBw6d4zNMAMUjWQlHZlvLtp0oVu_3vvv9UUtrVMW5dlmlld1KBOv1sM6Sl1B_wI9d50anVd5qh3RR-061tjeV0P9--ghF72GsS7SABC1nmLwpayzQxMQMm4ASgnc2YxmBBGN_LgrTMYQybEMajPF9YGN1I:1qXzHf:i26PPyEB4tdXi0oPn98VO2E7mEG7bBFzuIlcUe4esHM",
+  "expire_date": "2023-09-04T07:25:07.861Z"
+ }
+},
+{
+ "model": "info.article",
+ "pk": 2,
+ "fields": {
+  "title": "エンゼルスの同僚ハーゲットが回顧",
+  "content": "「オオタニやトラウトと一緒にプレーすることについてどう思う？」と問われたハーゲットは「すごくクールだよ」と即答し、続けて「彼らはスーパースターらしくなくて、クラブハウスでは普通の人たちなんだ。みんなに気さくに話してくれるし、誰ものけ者にしないし。とてもいいグループで、その一員でいられて嬉しいよ」とチームの雰囲気の良さを口にしている。  　また、3月のワールド・ベースボール・クラシック（WBC）決勝戦で実現した大谷とトラウトの対決について「クラブハウスを共にする自分としては、2人がどれだけ優れたプレーヤーか知っているから、2人の対決はすごかった。アメリカ人としてはショウヘイが勝ったのは悔しいけど、あのボールは誰も打てなかったと思う」と、三振を奪った大谷の投球に衝撃を受けていた。  　さらに「小さいころから野球をやってきて、ショウヘイのような二刀流が現れると思った？」という質問には「みんなが二刀流に憧れるけど、子供の頃にどちらか選ばないといけなくなる。だからショウヘイの二刀流、彼が毎日やっていることは信じられないよ」と驚きを隠さない。  　29歳のハーゲットが小さい頃に好きだったリリーフ投手は、アスレチックスなどで通算390セーブを挙げたデニス・エカーズリー。ハーゲットと同じく右横手からの投球が特徴的だった。20日（日本時間21日）には今季5度目のマイナー降格となったが、レッズ、レンジャーズに続くメジャー3球団目での経験はとても刺激的なようだ。",
+  "company": "THE ANSWER編集部",
+  "date": "2023-08-21"
+ }
+},
+{
+ "model": "info.article",
+ "pk": 3,
+ "fields": {
+  "title": "この夏の甲子園決勝は仙台育英vs慶應義塾に決定！センバツでも対決！",
+  "content": "この夏の甲子園（第105回全国高校野球選手権）の決勝戦のカードが決定した。  　21日に行われた準決勝第1試合では、仙台育英（宮城）が機動力と長打がかみ合い、神村学園（鹿児島）を6対2で破り、2年連続の決勝進出を果たした。  　準決勝第2試合では慶應義塾（神奈川）が2回、6回に1点ずつを奪い、エース・小宅 雅己投手（2年）が7安打完封勝利で、決勝進出を決めた。 　 　これで決勝戦のカードが仙台育英vs慶應義塾に決定した。両校は今年のセンバツでも激突しており、延長10回に及ぶ激戦の末、2対1で仙台育英が勝利している。",
+  "company": "高校野球ドットコム",
+  "date": "2023-08-21"
+ }
+},
+{
+ "model": "info.article",
+ "pk": 4,
+ "fields": {
+  "title": "大谷翔平の第１打席は空振り三振「２番中堅」でスタメン出場　トラウタニの２、３番コンビ復帰戦",
+  "content": "＜エンゼルス－レッズ＞◇22日（日本時間23日）◇エンゼルスタジアム  　エンゼルス大谷翔平投手（29）が「3番DH」で出場し、第1打席は空振り三振に倒れた。  　1回2死、右腕アシュクラフトと対戦。カウント1ー2からのスライダーにタイミングを外された。  　この日は、左手有鉤（ゆうこう）骨の骨折で7月上旬から離脱していたマイク・トラウト外野手（32）が復帰。「2番中堅」で出場し、大谷との2番、3番コンビが復活した。",
+  "company": "日刊スポーツ",
+  "date": "2023-08-23"
+ }
+}
+]
